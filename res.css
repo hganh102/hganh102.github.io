@@ -1,0 +1,358 @@
+@media screen and (max-width: 1700px) {
+    .intro-vid iframe {
+        padding: 50px 200px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    header {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+
+    .introduction {
+        padding: 15px 2%;
+        gap: 2rem;
+        transition: .2s;
+    }
+
+    .menu-row img {
+        max-height: 150px;
+        max-width: 150px;
+    }
+
+    .menu-row p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .delivery-apps-bg {
+        max-height: 550px;
+        height: 100%;
+    }
+
+    .intro-vid iframe {
+        padding: 50px 100px;
+    }
+}
+
+@media (max-width: 1025px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navlist {
+        position: absolute;
+        top: 90%;
+        right: 0%;
+        height: 0;
+        width: 100%;
+        background: white;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        transition: all .55s ease;
+        overflow: auto;
+    }
+
+    .navlist a {
+        font-size: 15px;
+        display: block;
+        padding: 10px 25px;
+        margin-left: 0;
+        top: 0%;
+    }
+
+    .navlist a:hover {
+        color: white;
+        background-color: rgb(191, 14, 14);
+        transition:  all .55s ease;
+    }
+
+    .navlist.open {
+        height: 208%;
+    }
+
+    .preamble, .header-bg {
+        height: 100%;
+    }
+
+    .preamble {
+        height: 500px;
+    }
+
+    .preamble-text h1, .header-bg-text h1 {
+        font-size: 45px;
+    }
+
+    .preamble-text p {
+        font-size: 15px;
+    }
+
+    .xem-menu {
+        font-size: 15px;
+        border-radius: 8px;
+        padding: 12px;
+    }
+
+    .Ve-Yukichi-img img, .intro-part-1 img {
+        height: 500px;
+        width: 450px;
+        object-fit: cover;
+        object-position: 25% 25%;
+    }
+
+    .Ve-Yukichi-text h1 {
+        font-size: 6vw;
+    }
+
+    .intro-text h1 {
+        font-size: 3.5vw;
+    }
+
+    .Ve-Yukichi-text p, .intro-text p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .menu-row {
+        padding: 0 5%;
+    }
+
+    .Yukichi-order-text h1 {
+        font-size: 30px;
+    }
+
+    .delivery-apps-text h1 {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .intro-part-2-text h1 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .intro-part-2-text p {
+        font-size: 16px;
+    }
+
+    .invisible-block-2,
+    .intro-part-2-text {
+        width: 100%;
+    }
+
+    .intro-part-2-text {
+        background-color: rgb(191, 14, 14);
+        min-height: 350px;
+        max-height: fit-content;
+        height: 100%;
+    }
+
+    .invisible-block-2 {
+        height: 200px;
+        background-image: url(img/intro\ img\ 2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro-vid iframe {
+        padding: 50px 20px;
+        height: 60vw;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .Ve-Yukichi-img img, .intro-part-1 img {
+        height: 500px;
+        width: 350px;
+        object-fit: cover;
+        object-position: 30% 30%;
+        transition: .2s;
+    }
+
+    .delivery-apps-img img {
+        padding: 0;
+    }
+
+    .delivery-apps-img {
+        height: 100%;
+        max-height: 400px;
+        padding: 5%;
+    }
+
+    .delivery-apps-bg {
+        max-height: fit-content;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .Ve-Yukichi-text h1, .intro-text h1 {
+        margin-top: 10px;
+    }
+
+    .intro-text h1 {
+        font-size: 4vw;
+    }
+
+    .Ve-Yukichi-text, .intro-text {
+        padding: 0px 15px;
+        padding-bottom: 40px;
+    }
+
+    .Ve-Yukichi-img img, .intro-part-1 img {
+        padding-bottom: 0px;
+        padding: 15px;
+        max-width: 750px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 0%;
+        transition: .2s;
+    }
+
+    .introduction {
+        padding: 15px 0px;
+        height: 100%;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .menu-yukichi-bg {
+        min-height: 200px;
+        height: 100%;
+    }
+
+    .menu-yukichi-bg-text h1 {
+        font-size: 25px;
+    }
+
+    .xem-chi-tiet a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .menu-row img {
+        max-height: 250px;
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .column p {
+        font-size: 18px;
+    }
+
+    .column {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+
+    .invisible-block,
+    .Yukichi-order-text {
+        width: 100%;
+    }
+
+    .Yukichi-order-text {
+        background-color: rgb(191, 14, 14);
+        min-height: 350px;
+        max-height: fit-content;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .invisible-block {
+        height: 200px;
+        background-image: url(img/Ramen-zoom.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .delivery-apps-img,
+    .delivery-apps-text {
+        width: 100%;
+    }
+
+    .delivery-apps-img img {
+        max-width: 300px;
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+    }
+
+
+    .bang-tin h1,
+    .follow h1 {
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+
+    .bang-tin p {
+        line-height: 35px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .white-logo img {
+        height: 80px;
+        margin-top: 10%;
+    }
+
+    .white-logo,
+    .bang-tin,
+    .follow {
+        padding: 20px 3%;
+        height: 250px;
+    }
+
+    .intro-vid iframe {
+        padding: 40px 20px;
+        height: 70vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .preamble-text h1, .header-bg-text h1 {
+        font-size: 35px;
+    }
+
+    .Ve-Yukichi-img img {
+        padding-bottom: 0px;
+        padding: 15px;
+        max-width: 600px;
+        width: 100%;
+        transition: .2s;
+    }
+
+    .delivery-apps-text h1 {
+        font-size: 30px;
+    }
+
+    .white-logo,
+    .bang-tin,
+    .follow {
+        width: 100%;
+    }
+
+    .follow {
+    height: 200px;
+    }
+
+    .white-logo {
+        height: 180px;
+    }
+
+    .intro-text h1 {
+        font-size: 20px;
+    }
+
+    .intro-vid iframe {
+        padding: 40px 20px;
+        height: 70vw;
+    }
+}

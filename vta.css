@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.tabs_wrapper {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.tabs {
+    display: inline-block;
+    vertical-align: top;
+    /* position: relative; */
+    z-index: 10;
+    margin-top: 25px;
+    padding: 0;
+    width: 40%;
+    min-width: 300px;
+    list-style: none;
+    transition: all 0.3s ease;
+}
+
+.phone,
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.phone p,
+.time p {
+    font-size: medium;
+    font-weight: 400;
+    padding-left: 10px;
+    color: black;
+}
+
+.phone i, .time i {
+    color: #BF0E0E;
+}
+
+ul.tabs li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #14142B;
+    text-align: left;
+    background: #4e4b6611;
+    transition: all 0.3s ease;
+}
+
+ul.tabs li:hover {
+    background: #F85C5C;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+ul.tabs li.active {
+    background: #BF0E0E;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.tab_container {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+    padding: 10px;
+    width: 55%;
+    min-width: 10px;
+    text-align: left;
+}
+
+
+.tab_content {
+    padding: 0 20px;
+    height: 100%;
+    display: none;
+    overflow: auto;
+}
+
+.tab_content img {
+    max-width: 700px;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tab_drawer_heading {
+    display: none;
+}
+
+@media screen and (max-width: 820px) {
+    .tab_container {
+        width: 50%;
+        min-width: 10px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    ul.tabs {
+        display: none;
+    }
+
+    .tab_container {
+        display: block;
+        margin: 0 auto;
+        width: 95%;
+        border-top: none;
+    }
+
+    .tab_container h4 {
+        margin: 10px 0;
+        cursor: pointer;
+        padding: 10px 35px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 25px;
+        color: #14142B;
+        text-align: left;
+        background: #4e4b6611;
+        transition: all 0.3s ease;
+    }
+
+    .phone p,
+    .time p {
+        font-size: small;
+        font-weight: 400;
+        padding-left: 10px;
+        color: black;
+    }
+
+    div.tab_container h4.d_active {
+        background: #BF0E0E;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .tab_drawer_heading {
+        background-color: #ccc;
+        background: #BF0E0E;
+        color: #fff;
+        margin: 0;
+        padding: 5px 20px;
+        display: block;
+        cursor: pointer;
+        user-select: none;
+        text-align: center;
+    }
+
+    .tab_drawer_heading:hover {
+        background: #ccc;
+        background: #F85C5C;
+        color: white;
+    }
+
+    .d_active {
+        background: #fff;
+        background: #BF0E0E;
+        color: #ddd;
+    }
+}
